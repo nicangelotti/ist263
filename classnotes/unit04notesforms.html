@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Unit 04 NOtes - Forms</title>
+    </head>
+    <body>
+        <h1> Apply for College</h1>
+        <form action="mailto:naangelo@syr.edu" method="POST">
+            <!-- ACTION MAILTO WILL SEND EMAIL OF MY DATA-->
+            <!-- post methof is required w mailto-->
+            <!-- post sends form data with website headers-->
+            <label for="firstname"> Type your first name:</label>
+            <input type="text" name="firstname" id="firstname" 
+          
+            <label for= "comments"> Comments?</label>
+            <textarea name="comments" id="comments" rows="10" cols="1000">
+                Type your comments here.</textarea>
+
+                <!-- the only time white space matter is in text area-->
+
+                <p>Please choose your year in school. </p>
+                <input type="radio" name="schoolyear" id="schoolyearfr" value="freshman">
+                <label for="schoolyearfr">freshman</label>
+
+                <input type="radio" name="schoolyear" id="schoolyearso" value="sophomore">
+                <label for="schoolyearso">sophomore</label>
+
+                <input type="radio" name="schoolyear" id="schoolyearjr" value="junior">
+                <label for="schoolyearjr">junior</label>
+
+                <input type="radio" name="schoolyear" id="schoolyearsr" value="senior">
+                <label for="schoolyearsr">senior</label><br>
+<!-- the name of all the radio buttons miust be the same-->
+<!-- the value of the in label must be unique-->
+
+
+                <input type="checkbox" name="veteran" id="veteran" value="Yes">
+                <label for="veteran"> Veteran?</label><br>
+
+                <label> for="Start"> When are you starting?</label>
+                <select name="Start" id="start">
+                    <option
+                   </option>
+                   <!--i need help here-->
+
+    
+                </select>
+                <input type="submit" value="Send Application"
+            </form>
+
+    </body>
+
+</html>
