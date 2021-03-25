@@ -1,0 +1,32 @@
+h1 {
+    color: #ff0000;
+    /*hex color requires # sign and six digits */
+    /* red, green, then blue*/
+}
+
+/* these three selectors ar epseudo selctors */
+/* colon seperates the selector from its state*/
+
+a:link{
+    color: #00ff00;
+}
+
+a:visited{
+    color: #0000ff;
+}
+
+a:hover{
+    color: #0fffff;
+    background-color: #b32db3;
+}
+
+.lookdifferent:hover {color: #999999;}
+
+body{
+    background-image: url(images/logosized.png);
+    background-size: 50%;
+    background-color: #c9c9ab;
+}
+/*background color for the entire page*/ 
+
+p{background-color: #ffffff;}
