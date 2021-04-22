@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Unit 11 Challenge</title>
+        <script>
+            function Form1(){
+                alert("You left this form element");
+            }
+        </script>
+    </head>
+    <body>
+        <form action="mailto:naangelo@syr.edu" method="POST">
+                    
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" onblur="form1();"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname">
+          </form>
+<p>Please select your affiliation with SU</p>
+          <form>
+            <input type="radio" id="student" name="occupation" value="student">
+            <label for="student">Student</label><br>
+            <input type="radio" id="professor" name="occupation" value="professor">
+            <label for="professor">Professor</label><br>
+            <input type="radio" id="other" name="occupation" value="other">
+            <label for="other">Other</label>
+            <input type="submit">
+          </form>
+    </body>
+</html>
