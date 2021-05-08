@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+
+
+            <style> 
+              .img1{width:80%;
+              min-width:100px;
+              max-width:200px;
+              display:block;}
+              .add{float:left; margin-right: 10px;}
+              .clear{clear:both;}
+
+              .content2{display:flex; padding: 60px;}
+              .map{flex: 3; margin:10px; background-color: darkgray; border-radius: 1em;}
+              .forms{flex: 2;margin:10px; padding:100px; background-color: darkgrey; border-radius: 1em;}
+              .content2{display:flex;
+                flex-wrap: wrap;}
+
+                #skipbutton{
+    position:absolute;
+    left: -999px;
+    /*position based on top left of viewport*/
+    /*left --999 means element i soff screen*/
+    background-color: white;
+    border: 1px black;
+}
+#skipbutton:focus{
+    position:absolute;
+    left: 10px;
+}
+
+             
+              
+
+              
+            </style>
+            <title>Contact</title>
+            <link rel="stylesheet" href="styles.css">
+
+        </head>
+        <body>
+          
+            <a href="https://nicangelotti.github.io/ist263/lab06/lab06bio.html">Home</a> <span> | </span> 
+            <a href="https://nicangelotti.github.io/ist263/lab06/lab06skills.html ">Skills</a> <span> | </span>
+            <a href="https://nicangelotti.github.io/ist263/lab06/lab06contact.html ">Contact</a> 
+        
+            <h1 class="special">Contact</h1>
+            
+<div class="content1">
+            <div class="add">
+            <p>Nicolette Angelotti<br>
+               621 Walnut Ave<br>
+               Syracuse, NY 13244
+              </p>
+            </div>
+
+
+            
+            <div class="links">
+            <a href="https://www.linkedin.com/in/nicoletteangelottisyracuse/">My Linkedin Profile</a>
+            </div>
+  
+            <br>
+            <div class="links2"></div>
+            <a href="mailto:naangelo@syr.edu">Nicolette Angelotti Email</a>
+            </div>
+
+</div>
+
+<div class="clear"></div>
+<div class="content2">
+
+            <div class="map">
+            <img src="../images/LI-Logo.png" class="img1" alt="Linkedin Logo">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.8616428970063!2d-76.13393128428855!3d43.04434247914701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f30a0881dd7d%3A0x81c315f4e940d954!2s621%20Walnut%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1614266447939!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <form action="mailto:naangelo@syr.edu" method="POST">
+
+            </div> 
+            
+            <div class="forms">
+                    
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname"><br>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname">
+                      
+<p>Please select your affiliation with SU</p>
+                      <form>
+                        <input type="radio" id="student" name="occupation" value="student">
+                        <label for="student">Student</label><br>
+                        <input type="radio" id="professor" name="occupation" value="professor">
+                        <label for="professor">Professor</label><br>
+                        <input type="radio" id="other" name="occupation" value="other">
+                        <label for="other">Other</label>
+                      </form>
+
+                      <label for="Nicolette">What is the main reason you are trying to contact Nicolette?</label>
+
+<textarea id="Nicolette" name="Nicolette" rows="4" cols="50">
+Enter here... she will get back to you shortly!
+</textarea>
+                </div>
+</div>
+        
+        
+        
+        </body>
+</html>
